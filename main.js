@@ -5,7 +5,7 @@ anchors.forEach((anchor) => {
     e.preventDefault();
     setTimeout(() => {
       this.blur();
-    }, 2000);
+    }, 500);
     document.querySelector(this.getAttribute("href")).scrollIntoView({
       behavior: "smooth",
     });
